@@ -118,7 +118,7 @@ function sendNotification(amount, service) {
     let transporter = nodemailer.createTransport({
         service: 'gmail',
         auth: {
-            user: 'your-email@gmail.com',
+            user: 'brightonbmr1@gmail.com',
             pass: 'your-email-password',
         },
     });
